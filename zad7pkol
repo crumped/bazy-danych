@@ -1,0 +1,4 @@
+Zad7 pkolos
+1)select concat(Imie,' ',Nazwisko) as zawodnik from zawodnicy where Wzrost>180 order by Dataur;
+2)select nazwisko from zawodnicy left join udzial on zawodnicy.Idzaw = udzial.Idzaw where odMinuty is NULL;
+3)select Nazwa,Miasto, count(Idzaw) from kluby left join zawodnicy on zawodnicy.IdKlubu = kluby.IdKlubu group by kluby.Nazwa;
