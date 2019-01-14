@@ -1,3 +1,4 @@
+-- Zad 7
 -- 1
 select concat(Imie,' ',Nazwisko) as zawodnik from zawodnicy where Wzrost>180 order by Dataur;
 -- 2
